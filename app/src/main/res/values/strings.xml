@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Alifbeni o\'rganamiz</string>
+    <string name="play_test">Testni boshlash</string>
+    <string name="statistic">Natijalar</string>
+    <string name="exit">Chiqish</string>
+    <string name="records">Rekordlar</string>
+    <string name="text_question">Tasvirning birinchi harfini toping</string>
+    <string name="ball_moves">0</string>
+    <string name="ball">Ball:</string>
+    <string name="answer">1</string>
+    <string name="savol">Savol:</string>
+    <string name="wrong_answer">Noto\'g\'ri javob</string>
+    <string name="name">Ismingiz</string>
+    <string name="play">play</string>
+    <string name="record">record</string>
+    <string name="test">test</string>
+    <string name="menu">Menu</string>
+    <string name="player">Player</string>
+</resources>

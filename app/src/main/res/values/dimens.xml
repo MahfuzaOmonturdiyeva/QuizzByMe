@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="strings_size_radio_button">20sp</dimen>
+    <dimen name="elevation">3dp</dimen>
+</resources>

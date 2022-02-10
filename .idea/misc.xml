@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Myprojects/QuizzByMe/app/src/main/res/layout/activity_statistics.xml" value="0.2421875" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable-v24/background_shadow_teal_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable-v24/ic_star_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable-v24/ic_statics_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable-v24/ic_test_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_line_with_pressed.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_question_image.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_radio_button_1.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_radio_button_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_radio_button_3.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_shadow_teal_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/background_stroke_gradient.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/backround_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/button_triangle.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/check_with_click_effect.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/custom_progress_bar.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/home_with_click_effect.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_box.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_check.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_check_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_close.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_close1.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_enter.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_error_outline.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_home1.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_item_checking.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_log_out.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_magistr.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_next.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_pause.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_play.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_play_button.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_star.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_star_white.xml" value="0.2125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_statics_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_statistics.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_test.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/ic_test_ripple.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/line.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/next_with_click_effect.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/statistics_with_click_effect.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/drawable/test_with_click_effect.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/activity_statistics.xml" value="0.15670289855072464" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/activity_test.xml" value="0.2" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/custom_dialog_correct.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/custom_dialog_win.xml" value="0.4" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/custom_dialog_wrong.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/dialog_edittext.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/QuizzByMe/app/src/main/res/layout/item_winners.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

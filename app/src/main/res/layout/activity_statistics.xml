@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon2">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <TextView
+        android:id="@+id/records"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/records"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/container_statics"
+        app:layout_constraintLeft_toRightOf="@id/guideline_start"
+        app:layout_constraintRight_toLeftOf="@id/guideline_end"
+        app:layout_constraintTop_toBottomOf="@id/guideline_top" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/container_statics"
+        android:layout_width="0dp"
+        android:overScrollMode="never"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintLeft_toRightOf="@id/guideline_start"
+        app:layout_constraintRight_toLeftOf="@id/guideline_end"
+        app:layout_constraintTop_toBottomOf="@id/records" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintRight_toRightOf="@id/guideline_end"
+        app:layout_constraintTop_toBottomOf="@id/container_statics">
+
+        <Button
+            android:id="@+id/home_activity_statics"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:onClick="clickHomeStatistics"
+            android:elevation="3dp"
+            android:text="@string/menu"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/test_dialog_win"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:elevation="3dp"
+            android:onClick="clickTestStatistics"
+            android:text="@string/test"
+            android:textColor="@color/teal_700"
+            app:backgroundTint="@color/teal_100" />
+    </LinearLayout>
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/home_activity_statics"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginEnd="5dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:elevation="6dp"-->
+    <!--        android:focusable="true"-->
+    <!--        android:onClick="clickHomeStatistics"-->
+    <!--        android:outlineAmbientShadowColor="@color/shadow"-->
+    <!--        android:outlineSpotShadowColor="@color/shadow"-->
+    <!--        app:cardCornerRadius="3dp"-->
+    <!--        app:layout_constraintHeight_percent="0.08"-->
+    <!--        app:layout_constraintRight_toLeftOf="@id/space"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/container_statics"-->
+    <!--        app:layout_constraintWidth_percent="0.1"-->
+    <!--        tools:ignore="UnusedAttribute,UsingOnClickInXml">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:src="@drawable/home_with_click_effect" />-->
+    <!--    </androidx.cardview.widget.CardView>-->
+
+    <!--    <View-->
+    <!--        android:id="@+id/space"-->
+    <!--        android:layout_width="2dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:background="@color/black"-->
+    <!--        app:layout_constraintHeight_percent="0.08"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/container_statics" />-->
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:id="@+id/test_statistics_activity"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginStart="5dp"-->
+    <!--        android:clickable="true"-->
+    <!--        android:elevation="6dp"-->
+    <!--        android:focusable="true"-->
+    <!--        android:onClick="clickTestStatistics"-->
+    <!--        android:outlineAmbientShadowColor="@color/shadow"-->
+    <!--        android:outlineSpotShadowColor="@color/shadow"-->
+    <!--        app:cardCornerRadius="3dp"-->
+    <!--        app:layout_constraintHeight_percent="0.08"-->
+    <!--        app:layout_constraintLeft_toRightOf="@id/space"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/container_statics"-->
+    <!--        app:layout_constraintWidth_percent="0.1"-->
+    <!--        tools:ignore="UnusedAttribute,UsingOnClickInXml">-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:src="@drawable/test_with_click_effect" />-->
+    <!--    </androidx.cardview.widget.CardView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
